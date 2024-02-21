@@ -19,10 +19,18 @@
 
 
 // when you have to remove arrays in array than use flat method
-const arr = [1,2,4,5,[9,55,9],[44,32,[45,64,74]]]
+// const arr = [1,2,4,5,[9,55,9],[44,32,[45,64,74]]]
 
-const newArr = arr.flat(Infinity)
-console.log(newArr);
+// const newArr = arr.flat(Infinity)
+// console.log(newArr);
 
 
-// when you want to convert 
+// when you want to convert other premative data types to array at that time use from and of
+
+const nArr  = 'smit'
+const score = 123
+
+const str = Array.from(nArr)
+const newStr = Array.of(nArr,score)
+console.log(newStr);
+// console.log(str);
