@@ -4,7 +4,7 @@ if(number < 0){
     console.log("This number factorial is not possible");
 }
 else if(number === 0){
-    console.log("The factorial of this number is : 1 " );
+    console.log("The factorial of this number is : 1" );
 }
 else{
     let fact = 1;
