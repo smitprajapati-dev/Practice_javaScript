@@ -8,13 +8,23 @@
 // console.log(anb);
 
 
-function one(){
-    const name ="smit"
-    function two(){
-        const lastName = "prajapati"
-        console.log(name);
-    }
-    console.log(lastName);
-    two()
+// function one(){
+//     const name ="smit"
+//     function two(){
+//         const lastName = "prajapati"
+//         console.log(name);
+//     }
+//     console.log(lastName);
+//     two()
+// }
+// one()
+
+
+// console.log(this) // this prints empty object and if line of code we write in browser it show window it is one of interview quesiong
+
+function st() {
+    console.log(this);   
 }
-one()
+
+
+st()
