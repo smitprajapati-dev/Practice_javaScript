@@ -1,8 +1,11 @@
 const mp = new Map();
 
 mp.set("firstName", "Smit")
-mp.set("nastName", "Prajapati");
+mp.set("lnastName", "Prajapati");
 mp.set("favouriteColor", "Blue");
 mp.set("favouriteSport", "MMA")
 
-console.log(mp)
+for(const [key, value] of mp){ // in [] we can print kee of map, and also we can print value 
+    console.log(value);
+    console.log(key);
+}
