@@ -9,3 +9,4 @@ for(const [key, value] of mp){ // in [] we can print kee of map, and also we can
     console.log(value);
     console.log(key);
 }
+  
