@@ -8,48 +8,52 @@
   </head>
   <body>
     <div class="bg-white">
-      <div class="flex items-center justify-center h-screen rounded-2xl bg-opacity-60 shadow-2xl p-6">
+      <div class="flex items-center justify-center h-screen flex-wrap">
         <div
-          class="flex flex-col items-center gap-2 w-[200px] h-[350px] rounded-2xl bg-[#6541FD] shadow-2xl bg-opacity-60 p-6"
+          class="flex flex-col items-center gap-2 w-[250px] h-[350px] rounded-2xl bg-[#6541FD] shadow-2xl p-6 text-white"
         >
-          <h2>Your Result</h2>
-          <div class="flex flex-col items-center">
-            <h2 class="text-2xl">76</h2>
-            <h2>of 100</h2>
+          <h2 class="pb-4">Your Result</h2>
+          <div
+            class="flex flex-col items-center bg-[#4828D5] border-2 border-[#4828D5] py-6 px-8 rounded-full shadow-2xl"
+          >
+            <h2 class="text-4xl font-bold">76</h2>
+            <h2 class="text-[10px]">of 100</h2>
           </div>
-          <h1 class="text-xl">Great</h1>
-          <p class="text-center w-[70%]">
-            You scored higher than 65% of the people who taken these test
-          </p>
+          <div class="flex flex-col items-center pt-6 gap-2">
+            <h1 class="text-xl font-bold">Great</h1>
+            <p class="text-center text-sm">
+              You scored higher than 65% of the people who taken these test
+            </p>
+          </div>
         </div>
         <div
-          class="flex flex-col items-center gap-4 w-[200px] h-[350px] rounded-r-2xl shadow-2xl bg-opacity-60 p-6"
+          class="flex flex-col items-center gap-4 w-[250px] h-[350px] rounded-r-2xl shadow-2xl bg-opacity-60 p-6"
         >
           <div class="w-full">
-            <h2 class="w-1/2 p-2">Summary</h2>
+            <h2 class="w-1/2">Summary</h2>
             <h2 class="w-1/2"></h2>
           </div>
-          <ul class="flex flex-col gap-4">
+          <ul class="flex flex-col gap-4 text-sm">
             <li
-              class="flex gap-2 justify-evenly bg-yellow-200 px-5 py-2 rounded-md"
+              class="flex gap-16 justify-evenly bg-[#FFF6F5] shadow-[#FFF6F5] px-6 py-2 rounded-md"
             >
               <div>Reaction</div>
               <div>92/100</div>
             </li>
             <li
-              class="flex gap-2 justify-evenly bg-yellow-200 px-5 py-2 rounded-md"
+              class="flex gap-16 justify-evenly bg-[#FFFBF2] shadow-[#FFFBF2] px-5 py-2 rounded-md"
             >
               <div>Memeory</div>
               <div>95/100</div>
             </li>
             <li
-              class="flex gap-2 justify-evenly bg-yellow-200 px-5 py-2 rounded-md"
+              class="flex gap-16 justify-evenly bg-[#F2FBFA] shwdow-[#F2FBFA] px-5 py-2 rounded-md"
             >
               <div>Verbal</div>
               <div>91/100</div>
             </li>
             <li
-              class="flex gap-2 justify-evenly bg-yellow-200 px-5 py-2 rounded-md"
+              class="flex gap-16 justify-evenly bg-[#F3F3FD] shadow-[#F3F3FD] px-5 py-2 rounded-md"
             >
               <div>Visual</div>
               <div>93/100</div>
@@ -57,7 +61,7 @@
           </ul>
           <button
             type="button"
-            class="bg-slate-900 px-[50px] py-2 rounded-full"
+            class="bg-[#303B59] px-[50px] py-2 rounded-full"
           >
             Continue
           </button>
