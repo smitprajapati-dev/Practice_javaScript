@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Third</title>
+  </head>
+  <body style="background-color: #212121; color: #ffff">
+    <ul class="language">
+      <li>JavaScript</li>
+    </ul>
+  </body>
+  <script>
+    function addlanguage(langName) {
+      const lit = document.createElement("li");
+      lit.innerHTML = `${langName}`;
+      document.querySelector(".language").appendChild(lit);
+    }
+    addlanguage("Python")
+    addlanguage("Java")
+    function addLanOpti(langName){
+        const li = document.createElement("li")
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector(".language").appendChild(li)
+    } 
+    addLanOpti("C++")
+  </script>
+</html>

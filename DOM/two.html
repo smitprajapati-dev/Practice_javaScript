@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body style="background-color:aqua; color:white">
-    <div class="parent" >
-        <div class="day">Monday</div>
-        <div class="day">Tuesday</div>
-        <div class="day">Wednesday</div>
-        <div class="day">Thuresday</div>
-        <div class="day">Friday</div>
+  </head>
+  <body style="background-color: aqua; color: white">
+    <div class="parent">
+      <div class="day">Monday</div>
+      <div class="day">Tuesday</div>
+      <div class="day">Wednesday</div>
+      <div class="day">Thuresday</div>
+      <div class="day">Friday</div>
     </div>
-</body>
-<script>
-    const parent = document.querySelector(".parent")
-    // console.log(parent);
-    // console.log(parent.children.innerHTML = "smit");
-    // for (let i = 0; i < parent.children.length; i++) {
-    //     console.log(parent.children[i].innerHTML);
-    // }
-    // parent.children[1].style.color = "blue";
-    // console.log(parent.firstElementChild)
-    // console.log(parent.lastElementChild)
-    const dayOne = document.querySelector(".day")
-    console.log(dayOne.parentElement);
-    console.log(dayOne.nextElementSibling);
-    // console.log(dayOne);
-    // dayOne.style.backgroundColor = "gray"
-
-
-</script>
+  </body>
+  <script>
+        const parent = document.querySelector(".parent")
+        // console.log(parent);
+        // console.log(parent.children.innerHTML = "smit");
+        // for (let i = 0; i < parent.children.length; i++) {
+        //     console.log(parent.children[i].innerHTML);
+        // }
+        // parent.children[1].style.color = "blue";
+        // console.log(parent.firstElementChild)
+        // console.log(parent.lastElementChild)
+        // const dayOne = document.querySelector(".day")
+        // console.log(dayOne.parentElement);
+        // console.log(dayOne.nextElementSibling);
+        // console.log(dayOne);
+        // dayOne.style.backgroundColor = "gray"
+        // console.log("Nodes :  "  , parent.childNodes)
+        const newEle = document.createElement("div");
+        console.log(newEle) // with this new element is created
+        div.className= "main";
+        div.id = "mId"
+        div.setAttribute("title", "Generate a code")
+        div.style.backgroundColor = "blue"
+        // div.innterText = “cahi aur code”;
+        const addText = document.createTextNode("Smit Prajapati");
+        div.appendChild(addText);
+        document.body.appendChild(div)
+  </script>
 </html>
