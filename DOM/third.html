@@ -24,5 +24,15 @@
         document.querySelector(".language").appendChild(li)
     } 
     addLanOpti("C++")
+
+    const newEle = document.querySelector("li:nth-child(2)")
+    // newEle.innerHTML = "Jquery"
+    const secEle = document.createElement("li")
+    secEle.textContent = "MonogDB";
+    newEle.replaceWith(secEle);
+    const firstLang = document.querySelector("li:first-child")
+    firstLang.outerHTML = "<li>JAVASCRIPT<li>";
+      const lastLang = document.querySelector('li:last-child')
+      lastLang.remove()
   </script>
 </html>

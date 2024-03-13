@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.btnCont {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.button {
+  border: 2px solid black;
+  padding: 25px;
+}
+#grey {
+  background-color: gray;
+  border: 2px solid black;
+  padding: 25px;
+}
+#White {
+  background-color: white;
+  border: 2px solid black;
+  padding: 25px;
+}
+#blue {
+  background-color: blue;
+  border: 2px solid black;
+  padding: 25px;
+}
+#yellow{
+    background-color: yellow;
+  border: 2px solid black;
+  padding: 25px;
+
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.25rem /* 20px */;
+  line-height: 1.75rem /* 28px */;
+}
