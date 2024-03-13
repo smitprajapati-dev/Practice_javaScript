@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+#weight-guide{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+form{
+    margin: 15px ;
+}
